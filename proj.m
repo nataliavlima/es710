@@ -51,3 +51,15 @@ G1=tf(num,d1)
 num2=[f]
 d2=[g h i j]
 G2 = tf(num2,d2)
+
+%printando graficos de resposta temporal e em frequencia
+figure
+subplot(2,1,1);
+step(G1)
+subplot(2,1,2);
+margin(G1)
+figure
+subplot(2,1,1);
+step(G2)
+subplot(2,1,2);
+margin(G2)
