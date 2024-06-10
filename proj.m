@@ -1,29 +1,29 @@
 clear all, close all, clc
 
 % Atibuindo valores das constantes
-Ka = 2;
-Kb = 4;
-Ki = 8;
-Kr = 12;
+Ka = 20;
+Kb = 0.5;
+Ki = 0.5;
+Kr = 0.318;
 
 %Tm =
 
-Jm = 5;
-Jg = 10;
-Jl = 15;
+Jm = 0.02;
+Jg = 1;
+Jl = 1.5;
 
 %Vb = 
 %theta_m = 
 
-Bm = 10;
-Bl = 20;
-Ra = 50; 
-La = 0.2;
+Bm = 0.01;
+Bl = 1;
+Ra = 8; 
+La = 0.45;
 
-n1 = 5;
+n1 = 1;
 n2 = 10;
-n3 = 4;
-n4 = 8;
+n3 = 1;
+n4 = 1;
 
 % Equacionamento
 n = (n1*n3)/(n2*n4);
