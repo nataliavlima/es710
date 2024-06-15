@@ -18,7 +18,7 @@ Jl = 1.5;
 Bm = 0.01;
 Bl = 1;
 Ra = 8; 
-La = 0.45;
+La = 0.002;
 
 n1 = 1;
 n2 = 10;
@@ -59,6 +59,10 @@ step(G1)
 subplot(2,1,2);
 margin(G1)
 figure
+subplot(2,1,1);
+step(G2)
+subplot(2,1,2);
+margin(G2)
 subplot(2,1,1);
 step(G2)
 subplot(2,1,2);
